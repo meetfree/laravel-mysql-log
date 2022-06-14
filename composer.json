@@ -1,0 +1,21 @@
+{
+    "name": "meetfree/laravel-mysql-log",
+    "description": "Laravel 8 MySQL driver for Monolog",
+    "keywords": ["laravel", "laravel8", "log", "monolog", "mysql"],
+    "homepage": "https://github.com/markhilton/monolog-mysql",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Mark Hilton",
+        "email": "nerd305@gmail.com"
+    }],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Logger": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
